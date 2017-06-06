@@ -13,6 +13,8 @@
 		61AE37BD1E8CB388003E1ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AE37BB1E8CB388003E1ACB /* LaunchScreen.storyboard */; };
 		61AE37C81E8CB388003E1ACB /* DKSMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE37C71E8CB388003E1ACB /* DKSMapViewTests.m */; };
 		61AE37D31E8CB388003E1ACB /* DKSMapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE37D21E8CB388003E1ACB /* DKSMapViewUITests.m */; };
+		61AE37E21E8CB515003E1ACB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE37E11E8CB515003E1ACB /* RootViewController.m */; };
+		EDAF94B0451A5F43B1953732 /* libPods-DKSMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B6D52A5A98471DBAE6D105 /* libPods-DKSMapView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		373660C7768022DB09A1CAC5 /* Pods-DKSMapView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKSMapView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKSMapView/Pods-DKSMapView.debug.xcconfig"; sourceTree = "<group>"; };
+		54B6D52A5A98471DBAE6D105 /* libPods-DKSMapView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKSMapView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AE37B01E8CB388003E1ACB /* DKSMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKSMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AE37B41E8CB388003E1ACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61AE37B61E8CB388003E1ACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +50,9 @@
 		61AE37CE1E8CB388003E1ACB /* DKSMapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSMapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AE37D21E8CB388003E1ACB /* DKSMapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSMapViewUITests.m; sourceTree = "<group>"; };
 		61AE37D41E8CB388003E1ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61AE37E01E8CB515003E1ACB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		61AE37E11E8CB515003E1ACB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B6A369430FA155140A81FF0B /* Pods-DKSMapView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKSMapView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKSMapView/Pods-DKSMapView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAF94B0451A5F43B1953732 /* libPods-DKSMapView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +88,8 @@
 				61AE37C61E8CB388003E1ACB /* DKSMapViewTests */,
 				61AE37D11E8CB388003E1ACB /* DKSMapViewUITests */,
 				61AE37B11E8CB388003E1ACB /* Products */,
+				95930C39FE2A905D02F691CD /* Pods */,
+				7D3F9624FC5ECB84257F5718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +108,8 @@
 			children = (
 				61AE37B61E8CB388003E1ACB /* AppDelegate.h */,
 				61AE37B71E8CB388003E1ACB /* AppDelegate.m */,
+				61AE37E01E8CB515003E1ACB /* RootViewController.h */,
+				61AE37E11E8CB515003E1ACB /* RootViewController.m */,
 				61AE37B91E8CB388003E1ACB /* Assets.xcassets */,
 				61AE37BB1E8CB388003E1ACB /* LaunchScreen.storyboard */,
 				61AE37BE1E8CB388003E1ACB /* Info.plist */,
@@ -132,6 +144,23 @@
 			path = DKSMapViewUITests;
 			sourceTree = "<group>";
 		};
+		7D3F9624FC5ECB84257F5718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B6D52A5A98471DBAE6D105 /* libPods-DKSMapView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95930C39FE2A905D02F691CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				373660C7768022DB09A1CAC5 /* Pods-DKSMapView.debug.xcconfig */,
+				B6A369430FA155140A81FF0B /* Pods-DKSMapView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61AE37D71E8CB388003E1ACB /* Build configuration list for PBXNativeTarget "DKSMapView" */;
 			buildPhases = (
+				18A246EFB83F60BD8F12BC9B /* [CP] Check Pods Manifest.lock */,
 				61AE37AC1E8CB388003E1ACB /* Sources */,
 				61AE37AD1E8CB388003E1ACB /* Frameworks */,
 				61AE37AE1E8CB388003E1ACB /* Resources */,
+				BDB883FC5B548F7146A27722 /* [CP] Embed Pods Frameworks */,
+				DB5F048186FFCB95004E8A38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +294,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18A246EFB83F60BD8F12BC9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB883FC5B548F7146A27722 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKSMapView/Pods-DKSMapView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5F048186FFCB95004E8A38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKSMapView/Pods-DKSMapView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61AE37AC1E8CB388003E1ACB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,6 +349,7 @@
 			files = (
 				61AE37B81E8CB388003E1ACB /* AppDelegate.m in Sources */,
 				61AE37B51E8CB388003E1ACB /* main.m in Sources */,
+				61AE37E21E8CB515003E1ACB /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,10 +488,12 @@
 		};
 		61AE37D81E8CB388003E1ACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373660C7768022DB09A1CAC5 /* Pods-DKSMapView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X42645MK9G;
 				INFOPLIST_FILE = DKSMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMapView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,10 +502,12 @@
 		};
 		61AE37D91E8CB388003E1ACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A369430FA155140A81FF0B /* Pods-DKSMapView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X42645MK9G;
 				INFOPLIST_FILE = DKSMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSMapView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +583,7 @@
 				61AE37D91E8CB388003E1ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61AE37DA1E8CB388003E1ACB /* Build configuration list for PBXNativeTarget "DKSMapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +592,7 @@
 				61AE37DC1E8CB388003E1ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61AE37DD1E8CB388003E1ACB /* Build configuration list for PBXNativeTarget "DKSMapViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +601,7 @@
 				61AE37DF1E8CB388003E1ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
